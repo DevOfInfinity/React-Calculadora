@@ -8,24 +8,3 @@
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: 1fr 96px 96px 96px 96px 96px;
 }
-
-
-.button:active {
-    background-color: #ccc;
-}
-
-.button.double {
-    grid-column: span 2;
-}
-
-.button.triple {
-    grid-column: span 3;
-}
-
-.button.operation {
-    background: #fa8231;
-}
-
-.button.operation:active {
-    background-color: #fa8231cc;
-}

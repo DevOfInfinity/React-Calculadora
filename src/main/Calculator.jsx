@@ -77,9 +77,6 @@ export default class Calculator extends Component {
     }
 
     render() {
-        const addDigit = n => this.addDigit(n)
-        const setOperation = op => this.setOperation(op)
-
         return (
             <div className='calcNum'>
                 <Display value={this.state.displayValue} />
