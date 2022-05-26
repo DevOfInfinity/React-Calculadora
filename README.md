@@ -2,4 +2,4 @@
 
 Projeto Calculadora Udemi
 
-<img src='./src/assets/Calculadora.png'>
+<img src="./src/assets/Calculadora.png" alt="Project">
