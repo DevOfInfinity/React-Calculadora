@@ -12,3 +12,9 @@ body {
   color: #fff;
   background: linear-gradient(to left, rgb(211, 131, 18), rgb(168, 50, 121));
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    display: block;
+  }
+}

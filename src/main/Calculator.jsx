@@ -38,7 +38,7 @@ export default class Calculator extends Component {
 
             const values = [...this.state.values]
             try {
-                values[0] = eval(`${values[0]} ${currentOperation} ${values}`)
+                values[0] = eval(`${values[0]} ${currentOperation} ${values[1]}`)
             } catch (e) {
                 values[0] = this.state.values[0]
             }
